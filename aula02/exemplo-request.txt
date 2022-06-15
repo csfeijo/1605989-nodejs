@@ -1,0 +1,31 @@
+Cabecalho de requisicao:
+
+res.writeHead(200, { 
+  'Content-type' : 'application/json; charset=utf-8',
+  'Content-length': '120',
+  'Header-customizado': 'Cicero'
+})
+
+// O end-point é sempre o mesmo, ded acordo com o que ele recebe na requisição 
+// ele entrega o conteudo
+ex:
+Cenario 1
+=> request:
+cicerofeijo.com/departamentos
+=> headers:
+content-type: application/json
+version: 1
+
+response (resposta)
+[{ nome: "Financeiro" }, { nome: "RH"} ]
+
+Cenario 2:
+=> request:
+cicerofeijo.com/departamentos
+=> headers:
+content-type: application/json
+version: 2
+
+response (resposta)
+[{ id:"1", nome: "Financeiro" }, { id: "2", nome: "RH"} ]
+
