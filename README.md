@@ -11,3 +11,7 @@ Arquivos da aula de NodeJS BE
 [Markdown](https://www.markdownguide.org/)
 
 [API da Azion](https://api.azion.com/)
+
+[CygWin](https://www.cygwin.com/install.html)
+
+[Top 30 NPM Packages for Node.js Developers 2022](https://colorlib.com/wp/npm-packages-node-js)
