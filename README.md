@@ -15,3 +15,7 @@ Arquivos da aula de NodeJS BE
 [CygWin](https://www.cygwin.com/install.html)
 
 [Top 30 NPM Packages for Node.js Developers 2022](https://colorlib.com/wp/npm-packages-node-js)
+
+[Git Ignore W3C](https://www.w3schools.com/git/git_ignore.asp?remote=github)
+
+[Versionamento Semantico](https://semver.org/lang/pt-BR/)
