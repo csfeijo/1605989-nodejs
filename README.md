@@ -17,6 +17,8 @@ Arquivos da aula de NodeJS BE
 
 [Git Ignore W3C](https://www.w3schools.com/git/git_ignore.asp?remote=github)
 
+[Templates prontos de Git Ignore](https://github.com/github/gitignore)
+
 [Versionamento Semantico](https://semver.org/lang/pt-BR/)
 
 ## API´s
@@ -27,3 +29,5 @@ Arquivos da aula de NodeJS BE
 [HTTP Methods](https://www.restapitutorial.com/lessons/httpmethods.html)
 
 [API REST da Azion](https://api.azion.com/)
+
+[Métodos do response no Express](http://expressjs.com/pt-br/api.html)
