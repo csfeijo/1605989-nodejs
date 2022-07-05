@@ -31,3 +31,7 @@ Arquivos da aula de NodeJS BE
 [API REST da Azion](https://api.azion.com/)
 
 [Métodos do response no Express](http://expressjs.com/pt-br/api.html)
+
+## Cursos e Vídeos
+
+[Produtividade com VSCode](https://www.udemy.com/course/produtividade-vscode/)

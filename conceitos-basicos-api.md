@@ -21,3 +21,8 @@ Ex. end-point: http://localhost:3030/departamentos/23 - (entidade/id)
 Método DELETE
 Ex. end-point: http://localhost:3030/departamentos/23 - (entidade/id)
 
+## Corpo da requisição
+Para enviar dados para um end-point normalmente enviamos no corpo da requisição (body).
+O nome dessa estrutura de dados enviada é o Payload da request.
+
+
