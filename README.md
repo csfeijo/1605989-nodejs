@@ -35,3 +35,18 @@ Arquivos da aula de NodeJS BE
 ## Cursos e Vídeos
 
 [Produtividade com VSCode](https://www.udemy.com/course/produtividade-vscode/)
+
+
+## Metodologia Ágil
+[Como funcion o Kanban](https://dionatanmoura.com/o-mantra-da-produtividade/gestao-de-tarefas/gestao-visual-com-quadro-de-kanban/)
+
+### Feramentas para gestão de projetos
+[Jira](https://www.atlassian.com/br/software/jira)
+
+[Trello](http://trello.com)
+
+[Assana](http://assana.com)
+
+[Monday.com](http://monday.com)
+
+[Trace GP](http://tracegp.com.br)
