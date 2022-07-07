@@ -15,17 +15,36 @@ app.use(bodyParser.urlencoded({ extended: true}))
 // Lista os departamentos
 app.get('/departamentos', (req,res) => {
   con.query('SELECT * FROM DEPARTAMENTOS ORDER BY nome', (err, result) => {
+    console.log('Called route /departamentos')
     res.send(result)
   })
 })
 
 // Lista um departamento especifico
 app.get('/departamentos/:idDepartamento', (req,res) => {
-  const { idDepartamento } = req.params
+  let { idDepartamento } = req.params
+  idDepartamento = parseInt(idDepartamento)
 
-  con.query(`SELECT * FROM DEPARTAMENTOS WHERE id_departamento = ${idDepartamento}`, (err, result) => {
-    res.send(result)
-  })
+  console.log('Called route /departamentos/:idDepartamento', idDepartamento)
+  if (isNaN(idDepartamento)) {
+    res.send({
+      code: '1234',
+      message: 'idDepartamento should be a number'
+    })
+  } else {
+
+
+    con.query(`SELECT * FROM DEPARTAMENTOS WHERE id_departamento = ${idDepartamento}`, (err, result) => {
+      if (result.length > 0) {
+        console.log('Found ', result.length, ' rows')
+      } else {
+        console.error('Not found rows')
+        res.statusCode(404)
+      }
+
+      res.send(result)
+    })
+  }
 })
 
 // Insere um departamento
