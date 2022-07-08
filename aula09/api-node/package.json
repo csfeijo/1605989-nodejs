@@ -12,7 +12,9 @@
   "dependencies": {
     "express": "*",
     "body-parser": "*",
-    "mysql": "*"
+    "mysql": "*",
+    "swagger-jsdoc":"*",
+    "swagger-ui-express": "*"
   },
   "devDependencies": {
     "nodemon": "*"
