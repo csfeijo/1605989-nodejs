@@ -66,7 +66,11 @@ app.patch('/departamentos/:idDepartamento', (req, res) => {
 
 // Remove um departamento
 app.delete('/departamentos/:idDepartamento', (req, res) => {
-  res.send('Remove um departamento.')
+  const { idDepartamento } = req.params
+
+  con.query(`DELETE FROM DEPARTAMENTOS WHERE id_departamento = ${idDepartamento}`, (err, result) => {
+    res.send(result)
+  })
 })
 
 
