@@ -10,10 +10,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "*",
     "body-parser": "*",
+    "cors": "^2.8.5",
+    "express": "*",
     "mysql": "*",
-    "swagger-jsdoc":"*",
+    "swagger-jsdoc": "*",
     "swagger-ui-express": "*"
   },
   "devDependencies": {
